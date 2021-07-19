@@ -1,0 +1,85 @@
+{
+    "version": "2.0",
+    "routeKey": "ANY /martrack",
+    "rawPath": "/martrack",
+    "rawQueryString": "",
+    "headers": {
+        "accept": "*/*",
+        "accept-encoding": "deflate, gzip",
+        "content-length": "135",
+        "content-type": "application/json",
+        "host": "3wu7u4alu9.execute-api.us-east-1.amazonaws.com",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+        "x-amzn-trace-id": "Root=1-60f40853-2d428bc851c371e052b352f1",
+        "x-forwarded-for": "206.189.205.251",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "49.199.241.109"
+    },
+    "requestContext": {
+        "accountId": "359413597077",
+        "apiId": "3wu7u4alu9",
+        "domainName": "3wu7u4alu9.execute-api.us-east-1.amazonaws.com",
+        "domainPrefix": "3wu7u4alu9",
+        "http": {
+            "method": "POST",
+            "path": "/martrack",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "206.189.205.251",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
+        },
+        "requestId": "CqY9Gj7MIAMEPOQ=",
+        "routeKey": "ANY /martrack",
+        "stage": "$default",
+        "time": "18/Jul/2021:10:54:11 +0000",
+        "timeEpoch": 1626605651617
+    },
+    "body": "{\n  \"vesselId\": 7413,\n  \"name\": \"Hansie\",\n  \"location\": \"Dachshund\",\n  \"status\": \"Male\",\n  \"noContainers\": 5,\n  \"other\": \"2012-05-15\"\n}",
+    "isBase64Encoded": false
+}
+
+
+
+
+
+
+{
+    "version": "2.0",
+    "routeKey": "GET /martrack/vessel",
+    "rawPath": "/martrack/vessel",
+    "rawQueryString": "7413",
+    "headers": {
+        "accept": "*/*",
+        "accept-encoding": "deflate, gzip",
+        "content-length": "0",
+        "host": "3wu7u4alu9.execute-api.us-east-1.amazonaws.com",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+        "x-amzn-trace-id": "Root=1-60f42d59-78c4b91350ddb6b333cf4a21",
+        "x-forwarded-for": "206.189.205.251",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "49.199.241.109"
+    },
+    "queryStringParameters": {
+        "7413": ""
+    },
+    "requestContext": {
+        "accountId": "359413597077",
+        "apiId": "3wu7u4alu9",
+        "domainName": "3wu7u4alu9.execute-api.us-east-1.amazonaws.com",
+        "domainPrefix": "3wu7u4alu9",
+        "http": {
+            "method": "GET",
+            "path": "/martrack/vessel",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "206.189.205.251",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
+        },
+        "requestId": "CqwGAj6mIAMEVpQ=",
+        "routeKey": "GET /martrack/vessel",
+        "stage": "$default",
+        "time": "18/Jul/2021:13:32:09 +0000",
+        "timeEpoch": 1626615129431
+    },
+    "isBase64Encoded": false
+}
